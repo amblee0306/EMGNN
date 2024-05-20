@@ -1,6 +1,6 @@
 # EMGNN
 
-We explored employing a distribution of parametrized graphs for training a GNN in an Expectation Maximization (EM) framework. Through a probabilistic framework, we handle the uncertainty in graph structures stemming from various sources. Our approach enables the model to handle multiple graphs.
+This repo supplements our [paper](https://openreview.net/forum?id=VyfEv6EjKR) published in ICML-24. We explored employing a distribution of parametrized graphs for training a GNN in an Expectation Maximization (EM) framework. Through a probabilistic framework, we handle the uncertainty in graph structures stemming from various sources. Our approach enables the model to handle multiple graphs.
 
 ## Data (Heterogeneous Graphs)
 
