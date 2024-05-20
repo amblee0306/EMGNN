@@ -1,0 +1,406 @@
+Created directory results/ACM_2023-10-20_23-19-58
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9989333333333333
+Epoch 1 | Train Loss -0.2206 | Train Micro f1 0.2833 | Train Macro f1 0.2590 | Val Loss 1.1140 | Val Micro f1 0.2233 | Val Macro f1 0.1944
+Epoch 21 | Train Loss 0.8459 | Train Micro f1 0.7967 | Train Macro f1 0.7883 | Val Loss 0.9542 | Val Micro f1 0.5767 | Val Macro f1 0.5726
+accept_rate 0.9577333333333333
+Epoch 1 | Train Loss -0.1069 | Train Micro f1 0.8967 | Train Macro f1 0.8964 | Val Loss 0.7735 | Val Micro f1 0.6800 | Val Macro f1 0.6679
+Epoch 21 | Train Loss -0.0799 | Train Micro f1 0.8667 | Train Macro f1 0.8604 | Val Loss 0.7611 | Val Micro f1 0.6800 | Val Macro f1 0.6324
+accept_rate 0.5026666666666667
+Epoch 1 | Train Loss 0.3702 | Train Micro f1 0.8700 | Train Macro f1 0.8718 | Val Loss 1.0759 | Val Micro f1 0.6067 | Val Macro f1 0.4935
+Epoch 21 | Train Loss 0.1892 | Train Micro f1 0.9467 | Train Macro f1 0.9475 | Val Loss 0.9748 | Val Micro f1 0.6400 | Val Macro f1 0.5941
+accept_rate 0.8059333333333333
+Epoch 1 | Train Loss 0.1056 | Train Micro f1 0.9767 | Train Macro f1 0.9767 | Val Loss 0.9509 | Val Micro f1 0.6767 | Val Macro f1 0.6539
+Epoch 21 | Train Loss 0.0392 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 1.0537 | Val Micro f1 0.6600 | Val Macro f1 0.6456
+accept_rate 0.8518666666666667
+Epoch 1 | Train Loss -0.0183 | Train Micro f1 0.9633 | Train Macro f1 0.9632 | Val Loss 1.0983 | Val Micro f1 0.6533 | Val Macro f1 0.6457
+Epoch 21 | Train Loss -0.0518 | Train Micro f1 0.9067 | Train Macro f1 0.9064 | Val Loss 1.3944 | Val Micro f1 0.5967 | Val Macro f1 0.5947
+accept_rate 0.8152666666666667
+Epoch 1 | Train Loss 0.0324 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.1178 | Val Micro f1 0.6600 | Val Macro f1 0.6393
+Early stopped
+new_distr_dictionary {0.0: 0.018889524899828276, 0.05: 0.025594897375091994, 0.1: 0.029111129282852238, 0.15000000000000002: 0.03516231907760242, 0.2: 0.03745195845939979, 0.25: 0.03941450650094039, 0.30000000000000004: 0.043993785264535124, 0.35000000000000003: 0.05020852072941369, 0.4: 0.04979965655409273, 0.45: 0.05315234279172459, 0.5: 0.05290702428653202, 0.55: 0.05331588846185297, 0.6000000000000001: 0.057486303050126746, 0.65: 0.057240984544934176, 0.7000000000000001: 0.05609616485403549, 0.75: 0.05658680186442064, 0.8: 0.06108430779295118, 0.8500000000000001: 0.05732275737999836, 0.9: 0.058222258565704475, 0.9500000000000001: 0.05429716248262327, 1.0: 0.05266170578133944}
+Test loss 0.7718 | Test Micro f1 0.6516 | Test Macro f1 0.6355 | Test Acc 0.6516
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9998
+Epoch 1 | Train Loss 1.0959 | Train Micro f1 0.3400 | Train Macro f1 0.3188 | Val Loss 1.0945 | Val Micro f1 0.3300 | Val Macro f1 0.3305
+Epoch 21 | Train Loss -0.1577 | Train Micro f1 0.7400 | Train Macro f1 0.7404 | Val Loss 0.8921 | Val Micro f1 0.6967 | Val Macro f1 0.6725
+accept_rate 0.9660666666666666
+Epoch 1 | Train Loss 0.6732 | Train Micro f1 0.8533 | Train Macro f1 0.8537 | Val Loss 0.8499 | Val Micro f1 0.6533 | Val Macro f1 0.6448
+Epoch 21 | Train Loss 0.1678 | Train Micro f1 0.9733 | Train Macro f1 0.9733 | Val Loss 0.8245 | Val Micro f1 0.6733 | Val Macro f1 0.6581
+accept_rate 0.8959333333333334
+Epoch 1 | Train Loss 0.1797 | Train Micro f1 0.9533 | Train Macro f1 0.9528 | Val Loss 0.9295 | Val Micro f1 0.6433 | Val Macro f1 0.6260
+Epoch 21 | Train Loss -0.0185 | Train Micro f1 0.9867 | Train Macro f1 0.9867 | Val Loss 1.0233 | Val Micro f1 0.6367 | Val Macro f1 0.6154
+accept_rate 0.8553333333333333
+Epoch 1 | Train Loss 0.1041 | Train Micro f1 0.9700 | Train Macro f1 0.9698 | Val Loss 1.1459 | Val Micro f1 0.6400 | Val Macro f1 0.6200
+Epoch 21 | Train Loss 0.0730 | Train Micro f1 0.9833 | Train Macro f1 0.9833 | Val Loss 1.3322 | Val Micro f1 0.6200 | Val Macro f1 0.6070
+accept_rate 0.7174666666666667
+Epoch 1 | Train Loss 0.0874 | Train Micro f1 0.9767 | Train Macro f1 0.9768 | Val Loss 1.3452 | Val Micro f1 0.6267 | Val Macro f1 0.6148
+Epoch 21 | Train Loss 0.0403 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 1.0831 | Val Micro f1 0.6667 | Val Macro f1 0.6313
+accept_rate 0.7059333333333333
+Epoch 1 | Train Loss -0.0597 | Train Micro f1 0.9100 | Train Macro f1 0.9082 | Val Loss 1.1078 | Val Micro f1 0.6800 | Val Macro f1 0.6566
+Early stopped
+new_distr_dictionary {0.0: 0.012560203985267731, 0.05: 0.014354518840305978, 0.1: 0.017565398054584947, 0.15000000000000002: 0.02162621588440835, 0.2: 0.03040891491170082, 0.25: 0.03239210501463783, 0.30000000000000004: 0.031825479270941544, 0.35000000000000003: 0.04004155255453773, 0.4: 0.045046746623854945, 0.45: 0.05080744168476721, 0.5: 0.053546132779299274, 0.55: 0.05864576447256587, 0.6000000000000001: 0.06176220606289546, 0.65: 0.07196146944942865, 0.7000000000000001: 0.06733402587590896, 0.75: 0.07026159221833979, 0.8: 0.06686183775616206, 0.8500000000000001: 0.07205590707337803, 0.9: 0.06780621399565587, 0.9500000000000001: 0.06402870903768061, 1.0: 0.049107564453678344}
+Test loss 0.9082 | Test Micro f1 0.6486 | Test Macro f1 0.6390 | Test Acc 0.6486
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9991333333333333
+Epoch 1 | Train Loss 1.1017 | Train Micro f1 0.3133 | Train Macro f1 0.3000 | Val Loss 1.0934 | Val Micro f1 0.3333 | Val Macro f1 0.3412
+Epoch 21 | Train Loss -0.0964 | Train Micro f1 0.8267 | Train Macro f1 0.8258 | Val Loss 1.1818 | Val Micro f1 0.4600 | Val Macro f1 0.4620
+accept_rate 0.9179333333333334
+Epoch 1 | Train Loss -0.1070 | Train Micro f1 0.8100 | Train Macro f1 0.8061 | Val Loss 1.0358 | Val Micro f1 0.5267 | Val Macro f1 0.5271
+Epoch 21 | Train Loss 0.2088 | Train Micro f1 0.9533 | Train Macro f1 0.9532 | Val Loss 0.9427 | Val Micro f1 0.6133 | Val Macro f1 0.6094
+accept_rate 0.9032666666666667
+Epoch 1 | Train Loss 0.1710 | Train Micro f1 0.9700 | Train Macro f1 0.9700 | Val Loss 0.8405 | Val Micro f1 0.6967 | Val Macro f1 0.6821
+Epoch 21 | Train Loss -0.0671 | Train Micro f1 0.8633 | Train Macro f1 0.8633 | Val Loss 1.5349 | Val Micro f1 0.5700 | Val Macro f1 0.5706
+accept_rate 0.8586
+Epoch 1 | Train Loss 0.1175 | Train Micro f1 0.9700 | Train Macro f1 0.9703 | Val Loss 1.0777 | Val Micro f1 0.6533 | Val Macro f1 0.6461
+Epoch 21 | Train Loss 0.1205 | Train Micro f1 0.9600 | Train Macro f1 0.9605 | Val Loss 0.9805 | Val Micro f1 0.6667 | Val Macro f1 0.6423
+accept_rate 0.8022666666666667
+Epoch 1 | Train Loss -0.0372 | Train Micro f1 0.9467 | Train Macro f1 0.9473 | Val Loss 1.5378 | Val Micro f1 0.5667 | Val Macro f1 0.5488
+Epoch 21 | Train Loss -0.0482 | Train Micro f1 0.9267 | Train Macro f1 0.9279 | Val Loss 1.2071 | Val Micro f1 0.6433 | Val Macro f1 0.6327
+accept_rate 0.8562666666666666
+Epoch 1 | Train Loss 0.0387 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.1318 | Val Micro f1 0.6367 | Val Macro f1 0.6186
+Early stopped
+new_distr_dictionary {0.0: 0.02639364683899097, 0.05: 0.03145437558393024, 0.1: 0.037215820616630334, 0.15000000000000002: 0.03488009965742759, 0.2: 0.03807225163500467, 0.25: 0.04437869822485207, 0.30000000000000004: 0.04679227654936157, 0.35000000000000003: 0.04866085331672376, 0.4: 0.05403301152289006, 0.45: 0.05403301152289006, 0.5: 0.05379943942696979, 0.55: 0.05496729990657116, 0.6000000000000001: 0.055200872002491436, 0.65: 0.05527872936779819, 0.7000000000000001: 0.051697290563687326, 0.75: 0.057692307692307696, 0.8: 0.053332295235129244, 0.8500000000000001: 0.05660230457801308, 0.9: 0.0528651510432887, 0.9500000000000001: 0.054500155714730616, 1.0: 0.03815010900031143}
+Test loss 0.7425 | Test Micro f1 0.6734 | Test Macro f1 0.6464 | Test Acc 0.6734
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9972666666666666
+Epoch 1 | Train Loss -0.2203 | Train Micro f1 0.3333 | Train Macro f1 0.1781 | Val Loss 1.1492 | Val Micro f1 0.1567 | Val Macro f1 0.0903
+Epoch 21 | Train Loss -0.1476 | Train Micro f1 0.8567 | Train Macro f1 0.8568 | Val Loss 0.8878 | Val Micro f1 0.7267 | Val Macro f1 0.6875
+accept_rate 0.9762
+Epoch 1 | Train Loss -0.1084 | Train Micro f1 0.8833 | Train Macro f1 0.8831 | Val Loss 0.9171 | Val Micro f1 0.5833 | Val Macro f1 0.5801
+Epoch 21 | Train Loss 0.2372 | Train Micro f1 0.9067 | Train Macro f1 0.9080 | Val Loss 0.7936 | Val Micro f1 0.6467 | Val Macro f1 0.6171
+accept_rate 0.9312
+Epoch 1 | Train Loss -0.0502 | Train Micro f1 0.9300 | Train Macro f1 0.9287 | Val Loss 1.4707 | Val Micro f1 0.5200 | Val Macro f1 0.5166
+Epoch 21 | Train Loss 0.0568 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.1461 | Val Micro f1 0.6300 | Val Macro f1 0.6200
+accept_rate 0.9072666666666667
+Epoch 1 | Train Loss 0.0490 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 0.9913 | Val Micro f1 0.6500 | Val Macro f1 0.6100
+Epoch 21 | Train Loss -0.0112 | Train Micro f1 0.9867 | Train Macro f1 0.9866 | Val Loss 1.0608 | Val Micro f1 0.6567 | Val Macro f1 0.6382
+accept_rate 0.9385333333333333
+Epoch 1 | Train Loss 0.0257 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.1036 | Val Micro f1 0.6633 | Val Macro f1 0.6436
+Epoch 21 | Train Loss 0.0318 | Train Micro f1 0.9933 | Train Macro f1 0.9933 | Val Loss 1.1221 | Val Micro f1 0.6567 | Val Macro f1 0.6411
+accept_rate 0.8486
+Epoch 1 | Train Loss 0.0189 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.3150 | Val Micro f1 0.6200 | Val Macro f1 0.6084
+Early stopped
+new_distr_dictionary {0.0: 0.05318563909183754, 0.05: 0.055149658260664626, 0.1: 0.052478592191059784, 0.15000000000000002: 0.05664231282897321, 0.2: 0.055621022861183124, 0.25: 0.05577814439468929, 0.30000000000000004: 0.05483541519365229, 0.35000000000000003: 0.05664231282897321, 0.4: 0.05546390132767696, 0.45: 0.061905884201429805, 0.5: 0.058292088930787966, 0.55: 0.05412836829287454, 0.6000000000000001: 0.056799434362479376, 0.65: 0.05326419985859062, 0.7000000000000001: 0.05153586299002278, 0.75: 0.04729358158535627, 0.8: 0.04006599104407259, 0.8500000000000001: 0.03818053264199859, 0.9: 0.024275276926702803, 0.9500000000000001: 0.013198208814518029, 1.0: 0.005263571372456595}
+Test loss 0.8968 | Test Micro f1 0.6503 | Test Macro f1 0.6289 | Test Acc 0.6503
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9998666666666667
+Epoch 1 | Train Loss -0.2192 | Train Micro f1 0.3633 | Train Macro f1 0.3148 | Val Loss 1.1224 | Val Micro f1 0.2533 | Val Macro f1 0.1584
+Epoch 21 | Train Loss -0.1913 | Train Micro f1 0.7433 | Train Macro f1 0.7355 | Val Loss 1.0367 | Val Micro f1 0.5567 | Val Macro f1 0.5540
+accept_rate 0.9581333333333333
+Epoch 1 | Train Loss 0.9807 | Train Micro f1 0.6433 | Train Macro f1 0.6253 | Val Loss 1.0829 | Val Micro f1 0.4300 | Val Macro f1 0.4041
+Epoch 21 | Train Loss 0.5116 | Train Micro f1 0.9133 | Train Macro f1 0.9129 | Val Loss 0.7656 | Val Micro f1 0.7000 | Val Macro f1 0.6823
+accept_rate 0.8254
+Epoch 1 | Train Loss 0.3672 | Train Micro f1 0.8900 | Train Macro f1 0.8892 | Val Loss 0.8933 | Val Micro f1 0.6433 | Val Macro f1 0.6351
+Epoch 21 | Train Loss 0.1255 | Train Micro f1 0.9667 | Train Macro f1 0.9665 | Val Loss 1.2814 | Val Micro f1 0.6333 | Val Macro f1 0.6284
+accept_rate 0.26093333333333335
+Epoch 1 | Train Loss 0.2071 | Train Micro f1 0.9233 | Train Macro f1 0.9231 | Val Loss 2.5883 | Val Micro f1 0.4733 | Val Macro f1 0.4665
+Epoch 21 | Train Loss 0.0967 | Train Micro f1 0.9667 | Train Macro f1 0.9666 | Val Loss 1.3462 | Val Micro f1 0.6433 | Val Macro f1 0.6339
+accept_rate 0.751
+Epoch 1 | Train Loss 0.0694 | Train Micro f1 0.9933 | Train Macro f1 0.9933 | Val Loss 1.1949 | Val Micro f1 0.6467 | Val Macro f1 0.6340
+Epoch 21 | Train Loss 0.0598 | Train Micro f1 0.9900 | Train Macro f1 0.9900 | Val Loss 1.2549 | Val Micro f1 0.6500 | Val Macro f1 0.6319
+accept_rate 0.8642666666666666
+Epoch 1 | Train Loss -0.0150 | Train Micro f1 0.9700 | Train Macro f1 0.9700 | Val Loss 1.3097 | Val Micro f1 0.6500 | Val Macro f1 0.6332
+Epoch 21 | Train Loss 0.0164 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.2405 | Val Micro f1 0.6600 | Val Macro f1 0.6447
+Early stopped
+new_distr_dictionary {0.0: 0.023218142548596114, 0.05: 0.026843566800370255, 0.1: 0.034094415303918546, 0.15000000000000002: 0.03856834310398025, 0.2: 0.043273680962665845, 0.25: 0.043813637766121565, 0.30000000000000004: 0.04520209811786486, 0.35000000000000003: 0.05013884603517433, 0.4: 0.052221536562789266, 0.45: 0.052067263190373345, 0.5: 0.05245294662141314, 0.55: 0.05353286022832459, 0.6000000000000001: 0.05515273063869176, 0.65: 0.05862388151804999, 0.7000000000000001: 0.05654119099043505, 0.75: 0.05492132058006788, 0.8: 0.05515273063869176, 0.8500000000000001: 0.05268435668003703, 0.9: 0.054304227090404195, 0.9500000000000001: 0.05129589632829374, 1.0: 0.0458963282937365}
+Test loss 0.7735 | Test Micro f1 0.6652 | Test Macro f1 0.6484 | Test Acc 0.6652
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9993333333333333
+Epoch 1 | Train Loss -0.2207 | Train Micro f1 0.3233 | Train Macro f1 0.3134 | Val Loss 1.1107 | Val Micro f1 0.1500 | Val Macro f1 0.1429
+Epoch 21 | Train Loss -0.1957 | Train Micro f1 0.6700 | Train Macro f1 0.6368 | Val Loss 1.0285 | Val Micro f1 0.4600 | Val Macro f1 0.4514
+accept_rate 0.923
+Epoch 1 | Train Loss 0.7923 | Train Micro f1 0.7867 | Train Macro f1 0.7716 | Val Loss 0.9191 | Val Micro f1 0.5600 | Val Macro f1 0.5568
+Epoch 21 | Train Loss -0.2023 | Train Micro f1 0.5967 | Train Macro f1 0.5845 | Val Loss 1.6443 | Val Micro f1 0.4133 | Val Macro f1 0.3728
+accept_rate 0.7134
+Epoch 1 | Train Loss -0.0943 | Train Micro f1 0.8067 | Train Macro f1 0.8059 | Val Loss 0.8968 | Val Micro f1 0.6433 | Val Macro f1 0.6382
+Epoch 21 | Train Loss 0.1611 | Train Micro f1 0.9567 | Train Macro f1 0.9566 | Val Loss 1.0216 | Val Micro f1 0.6267 | Val Macro f1 0.5999
+accept_rate 0.623
+Epoch 1 | Train Loss 0.1166 | Train Micro f1 0.9833 | Train Macro f1 0.9833 | Val Loss 1.0895 | Val Micro f1 0.6133 | Val Macro f1 0.5920
+Epoch 21 | Train Loss 0.0679 | Train Micro f1 0.9933 | Train Macro f1 0.9933 | Val Loss 0.9986 | Val Micro f1 0.6667 | Val Macro f1 0.6479
+accept_rate 0.8213333333333334
+Epoch 1 | Train Loss 0.0866 | Train Micro f1 0.9900 | Train Macro f1 0.9900 | Val Loss 1.0083 | Val Micro f1 0.6567 | Val Macro f1 0.6428
+Epoch 21 | Train Loss -0.0216 | Train Micro f1 0.9700 | Train Macro f1 0.9698 | Val Loss 1.1829 | Val Micro f1 0.6533 | Val Macro f1 0.6360
+accept_rate 0.7877333333333333
+Epoch 1 | Train Loss 0.1304 | Train Micro f1 0.9467 | Train Macro f1 0.9475 | Val Loss 1.1473 | Val Micro f1 0.6533 | Val Macro f1 0.6382
+Early stopped
+new_distr_dictionary {0.0: 0.01912660798916723, 0.05: 0.022004062288422478, 0.1: 0.02428909952606635, 0.15000000000000002: 0.028605280974949222, 0.2: 0.03529113067027759, 0.25: 0.03740690589031821, 0.30000000000000004: 0.04079214624238321, 0.35000000000000003: 0.04798578199052133, 0.4: 0.049509140148950574, 0.45: 0.05137102234258632, 0.5: 0.05407921462423832, 0.55: 0.054502369668246446, 0.6000000000000001: 0.05881855111712932, 0.65: 0.06110358835477319, 0.7000000000000001: 0.06254231550440081, 0.75: 0.062373053486797565, 0.8: 0.06516587677725119, 0.8500000000000001: 0.061611374407582936, 0.9: 0.06008801624915369, 0.9500000000000001: 0.05611035883547732, 1.0: 0.0472241029113067}
+Test loss 0.7864 | Test Micro f1 0.6456 | Test Macro f1 0.6319 | Test Acc 0.6456
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9994
+Epoch 1 | Train Loss -0.2199 | Train Micro f1 0.3533 | Train Macro f1 0.2840 | Val Loss 1.1297 | Val Micro f1 0.1400 | Val Macro f1 0.0874
+Epoch 21 | Train Loss -0.2011 | Train Micro f1 0.6633 | Train Macro f1 0.6598 | Val Loss 1.0286 | Val Micro f1 0.6200 | Val Macro f1 0.5553
+accept_rate 0.9698
+Epoch 1 | Train Loss -0.2009 | Train Micro f1 0.6467 | Train Macro f1 0.6315 | Val Loss 1.0315 | Val Micro f1 0.6167 | Val Macro f1 0.5558
+Epoch 21 | Train Loss 0.3501 | Train Micro f1 0.9433 | Train Macro f1 0.9437 | Val Loss 0.8041 | Val Micro f1 0.6767 | Val Macro f1 0.6641
+accept_rate 0.592
+Epoch 1 | Train Loss -0.1409 | Train Micro f1 0.6833 | Train Macro f1 0.6803 | Val Loss 1.5124 | Val Micro f1 0.4467 | Val Macro f1 0.4579
+Epoch 21 | Train Loss 0.1218 | Train Micro f1 0.9667 | Train Macro f1 0.9667 | Val Loss 1.2745 | Val Micro f1 0.5867 | Val Macro f1 0.5750
+accept_rate 0.8542666666666666
+Epoch 1 | Train Loss 0.0956 | Train Micro f1 0.9733 | Train Macro f1 0.9733 | Val Loss 1.0950 | Val Micro f1 0.6633 | Val Macro f1 0.6500
+Epoch 21 | Train Loss 0.1982 | Train Micro f1 0.9100 | Train Macro f1 0.9117 | Val Loss 1.2451 | Val Micro f1 0.6600 | Val Macro f1 0.6361
+accept_rate 0.4944
+Epoch 1 | Train Loss -0.1099 | Train Micro f1 0.8300 | Train Macro f1 0.8155 | Val Loss 2.5289 | Val Micro f1 0.5100 | Val Macro f1 0.5050
+Epoch 21 | Train Loss 0.0486 | Train Micro f1 0.9867 | Train Macro f1 0.9867 | Val Loss 1.6028 | Val Micro f1 0.6200 | Val Macro f1 0.6130
+accept_rate 0.5828
+Epoch 1 | Train Loss 0.0595 | Train Micro f1 0.9833 | Train Macro f1 0.9833 | Val Loss 1.6228 | Val Micro f1 0.5967 | Val Macro f1 0.5925
+Epoch 21 | Train Loss 0.0271 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 1.3449 | Val Micro f1 0.6700 | Val Macro f1 0.6568
+accept_rate 0.7870666666666667
+Epoch 1 | Train Loss 0.0162 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.3527 | Val Micro f1 0.6600 | Val Macro f1 0.6508
+Early stopped
+new_distr_dictionary {0.0: 0.012027782483482975, 0.05: 0.020074538370320177, 0.1: 0.024648483821785534, 0.15000000000000002: 0.029307131966796546, 0.2: 0.03625275283754023, 0.25: 0.03582923936981196, 0.30000000000000004: 0.044214806030831784, 0.35000000000000003: 0.04955107572420803, 0.4: 0.05420972386921904, 0.45: 0.053701507707945115, 0.5: 0.056242588514314754, 0.55: 0.053786210401490765, 0.6000000000000001: 0.057851939691682196, 0.65: 0.058529561240047434, 0.7000000000000001: 0.06132475012705404, 0.75: 0.059630696256140946, 0.8: 0.06200237167541928, 0.8500000000000001: 0.05666610198204303, 0.9: 0.06183296628832797, 0.9500000000000001: 0.06183296628832797, 1.0: 0.05048280535321023}
+Test loss 0.8521 | Test Micro f1 0.6473 | Test Macro f1 0.6366 | Test Acc 0.6473
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9985333333333334
+Epoch 1 | Train Loss -0.2200 | Train Micro f1 0.3033 | Train Macro f1 0.2888 | Val Loss 1.1097 | Val Micro f1 0.1733 | Val Macro f1 0.1406
+Epoch 21 | Train Loss -0.1879 | Train Micro f1 0.7600 | Train Macro f1 0.7563 | Val Loss 1.0456 | Val Micro f1 0.4700 | Val Macro f1 0.4732
+accept_rate 0.9607333333333333
+Epoch 1 | Train Loss 0.8966 | Train Micro f1 0.7867 | Train Macro f1 0.7848 | Val Loss 0.9989 | Val Micro f1 0.5900 | Val Macro f1 0.5849
+Epoch 21 | Train Loss -0.1808 | Train Micro f1 0.6600 | Train Macro f1 0.5798 | Val Loss 0.8854 | Val Micro f1 0.6500 | Val Macro f1 0.5163
+accept_rate 0.9448666666666666
+Epoch 1 | Train Loss 0.8270 | Train Micro f1 0.6867 | Train Macro f1 0.6841 | Val Loss 0.8960 | Val Micro f1 0.6967 | Val Macro f1 0.6516
+Epoch 21 | Train Loss 0.3411 | Train Micro f1 0.9300 | Train Macro f1 0.9300 | Val Loss 0.9067 | Val Micro f1 0.6433 | Val Macro f1 0.6314
+accept_rate 0.9302
+Epoch 1 | Train Loss 0.1718 | Train Micro f1 0.9767 | Train Macro f1 0.9765 | Val Loss 0.9602 | Val Micro f1 0.6633 | Val Macro f1 0.6467
+Epoch 21 | Train Loss 0.0940 | Train Micro f1 0.9867 | Train Macro f1 0.9866 | Val Loss 1.5366 | Val Micro f1 0.6167 | Val Macro f1 0.6104
+accept_rate 0.8875333333333333
+Epoch 1 | Train Loss 0.0588 | Train Micro f1 0.9900 | Train Macro f1 0.9900 | Val Loss 1.0802 | Val Micro f1 0.6533 | Val Macro f1 0.6199
+Epoch 21 | Train Loss -0.0130 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 1.3046 | Val Micro f1 0.6233 | Val Macro f1 0.6099
+accept_rate 0.9130666666666667
+Epoch 1 | Train Loss 0.0870 | Train Micro f1 0.9767 | Train Macro f1 0.9767 | Val Loss 1.2725 | Val Micro f1 0.6267 | Val Macro f1 0.6096
+Epoch 21 | Train Loss -0.0607 | Train Micro f1 0.9067 | Train Macro f1 0.9068 | Val Loss 1.1811 | Val Micro f1 0.6300 | Val Macro f1 0.6143
+accept_rate 0.8986
+Epoch 1 | Train Loss 0.0271 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.1838 | Val Micro f1 0.6433 | Val Macro f1 0.6261
+Early stopped
+new_distr_dictionary {0.0: 0.05126493063283626, 0.05: 0.0532680465909934, 0.1: 0.05119074115290452, 0.15000000000000002: 0.050671414793382295, 0.2: 0.05423250983010609, 0.25: 0.05200682543215372, 0.30000000000000004: 0.05393575191037911, 0.35000000000000003: 0.05334223607092514, 0.4: 0.05104236219304103, 0.45: 0.05104236219304103, 0.5: 0.04844573039542993, 0.55: 0.053638993990652126, 0.6000000000000001: 0.052303583351880706, 0.65: 0.04978114103420135, 0.7000000000000001: 0.053490615030788634, 0.75: 0.05104236219304103, 0.8: 0.05111655167297277, 0.8500000000000001: 0.045255582758364866, 0.9: 0.040730024482528375, 0.9500000000000001: 0.02418577045774909, 1.0: 0.008012463832628533}
+Test loss 0.9535 | Test Micro f1 0.6246 | Test Macro f1 0.6182 | Test Acc 0.6246
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9997333333333334
+Epoch 1 | Train Loss -0.2202 | Train Micro f1 0.3233 | Train Macro f1 0.2665 | Val Loss 1.0978 | Val Micro f1 0.4067 | Val Macro f1 0.2221
+Epoch 21 | Train Loss -0.1964 | Train Micro f1 0.6833 | Train Macro f1 0.6661 | Val Loss 1.0751 | Val Micro f1 0.3933 | Val Macro f1 0.3939
+accept_rate 0.9262
+Epoch 1 | Train Loss -0.1942 | Train Micro f1 0.5767 | Train Macro f1 0.5390 | Val Loss 1.0580 | Val Micro f1 0.4433 | Val Macro f1 0.4325
+Epoch 21 | Train Loss 0.2624 | Train Micro f1 0.9500 | Train Macro f1 0.9500 | Val Loss 0.8554 | Val Micro f1 0.6567 | Val Macro f1 0.6455
+accept_rate 0.8293333333333334
+Epoch 1 | Train Loss -0.0697 | Train Micro f1 0.8600 | Train Macro f1 0.8622 | Val Loss 1.1778 | Val Micro f1 0.5633 | Val Macro f1 0.5545
+Epoch 21 | Train Loss -0.0614 | Train Micro f1 0.9133 | Train Macro f1 0.9139 | Val Loss 1.1816 | Val Micro f1 0.6333 | Val Macro f1 0.6070
+accept_rate 0.6706666666666666
+Epoch 1 | Train Loss -0.0633 | Train Micro f1 0.8933 | Train Macro f1 0.8957 | Val Loss 1.6339 | Val Micro f1 0.5767 | Val Macro f1 0.5698
+Epoch 21 | Train Loss -0.0632 | Train Micro f1 0.9033 | Train Macro f1 0.9052 | Val Loss 1.4779 | Val Micro f1 0.5767 | Val Macro f1 0.5643
+accept_rate 0.5760666666666666
+Epoch 1 | Train Loss 0.0663 | Train Micro f1 0.9900 | Train Macro f1 0.9900 | Val Loss 1.7169 | Val Micro f1 0.5567 | Val Macro f1 0.5434
+Epoch 21 | Train Loss 0.0233 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.3675 | Val Micro f1 0.6233 | Val Macro f1 0.6122
+accept_rate 0.7914666666666667
+Epoch 1 | Train Loss -0.0501 | Train Micro f1 0.9267 | Train Macro f1 0.9269 | Val Loss 1.3439 | Val Micro f1 0.6300 | Val Macro f1 0.6186
+Epoch 21 | Train Loss 0.0215 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.2786 | Val Micro f1 0.6400 | Val Macro f1 0.6328
+accept_rate 0.7631333333333333
+Epoch 1 | Train Loss -0.0238 | Train Micro f1 0.9533 | Train Macro f1 0.9534 | Val Loss 1.3931 | Val Micro f1 0.6333 | Val Macro f1 0.6262
+Epoch 21 | Train Loss 0.0342 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 1.3671 | Val Micro f1 0.6367 | Val Macro f1 0.6305
+accept_rate 0.8124
+Epoch 1 | Train Loss -0.0231 | Train Micro f1 0.9567 | Train Macro f1 0.9568 | Val Loss 1.2139 | Val Micro f1 0.6667 | Val Macro f1 0.6583
+Early stopped
+new_distr_dictionary {0.0: 0.016904644674216315, 0.05: 0.019284424749712786, 0.1: 0.024946660101756113, 0.15000000000000002: 0.032003938946331856, 0.2: 0.03545051698670606, 0.25: 0.04382077794190054, 0.30000000000000004: 0.04743147874610208, 0.35000000000000003: 0.05522731002790087, 0.4: 0.05350402100771377, 0.45: 0.055063187264073526, 0.5: 0.05522731002790087, 0.55: 0.058920072214016087, 0.6000000000000001: 0.05875594945018874, 0.65: 0.05654029213851961, 0.7000000000000001: 0.05982274741506647, 0.75: 0.060561299852289516, 0.8: 0.05654029213851961, 0.8500000000000001: 0.05662235352043329, 0.9: 0.058427703922534054, 0.9500000000000001: 0.05194485475135401, 1.0: 0.04300016412276383}
+Test loss 0.8126 | Test Micro f1 0.6477 | Test Macro f1 0.6308 | Test Acc 0.6477
+IMDB
+SAME edge types but different directions, A[:,:,0] == A[:,:,1]
+SAME edge types but different directions, A[:,:,2] == A[:,:,3]
+-------------------------------------
+train_node.size()[0] 300
+valid_node.size()[0] 300
+test_node.size()[0] 2339
+total_labelled_nodes 2939
+total number of nodes 12772
+-------------------------------------
+A <class 'torch.Tensor'> torch.Size([12772, 12772, 2])
+num_edge_types 2
+GCNv2(
+  (layers): ModuleList(
+    (0): GraphConvolution (1256 -> 64)
+    (1): GraphConvolution (64 -> 64)
+    (2): GraphConvolution (64 -> 3)
+  )
+)
+accept_rate 0.9995333333333334
+Epoch 1 | Train Loss -0.2201 | Train Micro f1 0.3233 | Train Macro f1 0.2933 | Val Loss 1.1218 | Val Micro f1 0.1500 | Val Macro f1 0.1161
+Epoch 21 | Train Loss 0.7860 | Train Micro f1 0.8100 | Train Macro f1 0.8067 | Val Loss 0.8980 | Val Micro f1 0.6733 | Val Macro f1 0.6578
+accept_rate 0.9559333333333333
+Epoch 1 | Train Loss -0.1155 | Train Micro f1 0.8300 | Train Macro f1 0.8291 | Val Loss 0.8492 | Val Micro f1 0.6633 | Val Macro f1 0.6571
+Epoch 21 | Train Loss 0.2404 | Train Micro f1 0.9533 | Train Macro f1 0.9534 | Val Loss 0.7868 | Val Micro f1 0.6833 | Val Macro f1 0.6635
+accept_rate 0.8022
+Epoch 1 | Train Loss 0.2444 | Train Micro f1 0.9400 | Train Macro f1 0.9397 | Val Loss 0.8031 | Val Micro f1 0.6767 | Val Macro f1 0.6561
+Epoch 21 | Train Loss 0.4663 | Train Micro f1 0.8367 | Train Macro f1 0.8292 | Val Loss 1.6771 | Val Micro f1 0.5067 | Val Macro f1 0.5060
+accept_rate 0.6996666666666667
+Epoch 1 | Train Loss 0.1843 | Train Micro f1 0.9467 | Train Macro f1 0.9467 | Val Loss 0.9980 | Val Micro f1 0.6467 | Val Macro f1 0.6290
+Epoch 21 | Train Loss 0.1195 | Train Micro f1 0.9567 | Train Macro f1 0.9565 | Val Loss 1.1356 | Val Micro f1 0.6500 | Val Macro f1 0.6326
+accept_rate 0.8481333333333333
+Epoch 1 | Train Loss 0.0484 | Train Micro f1 0.9900 | Train Macro f1 0.9900 | Val Loss 1.1095 | Val Micro f1 0.6500 | Val Macro f1 0.6146
+Epoch 21 | Train Loss -0.0100 | Train Micro f1 0.9967 | Train Macro f1 0.9967 | Val Loss 1.3382 | Val Micro f1 0.6367 | Val Macro f1 0.6290
+accept_rate 0.9355333333333333
+Epoch 1 | Train Loss 0.0205 | Train Micro f1 1.0000 | Train Macro f1 1.0000 | Val Loss 1.1558 | Val Micro f1 0.6400 | Val Macro f1 0.6184
+Early stopped
+new_distr_dictionary {0.0: 0.037055512007411105, 0.05: 0.04076106320815221, 0.1: 0.042115014608423006, 0.15000000000000002: 0.044181572008836316, 0.2: 0.047459559609491914, 0.25: 0.04981115940996223, 0.30000000000000004: 0.048457208009691444, 0.35000000000000003: 0.046604432409320884, 0.4: 0.0488135110097627, 0.45: 0.052519062210503814, 0.5: 0.05187771681037554, 0.55: 0.050309983610062, 0.6000000000000001: 0.04888477160977695, 0.65: 0.05173519561034704, 0.7000000000000001: 0.049312335209862466, 0.75: 0.05038124421007625, 0.8: 0.05244780161048956, 0.8500000000000001: 0.05116511081023302, 0.9: 0.04902729280980546, 0.9500000000000001: 0.046604432409320884, 1.0: 0.0404760208080952}
+Test loss 0.8735 | Test Micro f1 0.6451 | Test Macro f1 0.6371 | Test Acc 0.6451
+test micro_f1_ave 0.6499358700299274 0.012833592352888955
+test macro_f1_ave 0.6352920246206829 0.008674029727831463
